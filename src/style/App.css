@@ -1,0 +1,128 @@
+styles.css body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app-title-link {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the color from parent */
+}
+
+.app-container {
+  background-color: rgba(255, 249, 232, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f89696;
+  box-shadow: 0px 2px 4px rgba(133, 48, 48, 0.1);
+}
+
+.app-title {
+  font-size: 2rem;
+  margin: 0;
+  color: #203334;
+  font-family: "Poppins", sans-serif; /* Apply the chosen font */
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.connect-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.connected-content {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  width: 100%;
+  max-width: 1900px;
+  margin-top: 2rem; /* Add some spacing from the header */
+}
+
+hr {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.modern-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.modern-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* navigate */
+
+.nav-container {
+  display: flex;
+  align-items: right;
+  margin: 20px 20px;
+}
+
+.dropdown-button {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-right: 1px; /* Add margin to separate from Connect Button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-button:hover {
+  background-color: #fb4d4d;
+}
+
+.dropdown-menu {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #333;
+}
+
+/* ... Your existing styles ... */

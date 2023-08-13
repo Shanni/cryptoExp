@@ -58,6 +58,7 @@ contract InsuranceContract {
     function processClaim(uint256 policyId, uint256 payoutAmount) external onlyInsurer {
         require(claimAmounts[policyId] > 0, "No pending claims");
 
+        Policy storage policy = policies[policyId];
         uint256 policyHolderBalance = address(policy.holder).balance;
         require(policyHolderBalance >= payoutAmount, "Insufficient funds in contract");
 

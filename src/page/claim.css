@@ -1,0 +1,36 @@
+/* ClaimPage.css */
+
+.claim-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.claim-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.claim-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.claim-button {
+  background-color: #fd5151;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.claim-button:hover {
+  background-color: #f88787;
+}
